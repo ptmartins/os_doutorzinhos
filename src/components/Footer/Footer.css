@@ -1,0 +1,13 @@
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+
+.footer-heart {
+    color: var(--link-color);
+}

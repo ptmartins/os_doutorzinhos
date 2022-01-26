@@ -1,0 +1,36 @@
+.navigation {
+    margin-left: auto;
+}
+
+.navigation-link,
+.navigation-link:active,
+.navigation-link:visited {
+    border: 0;
+    color: var(--font-color);
+    font-family: "Bangers", cursive;
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    position: relative;
+    -webkit-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
+}
+
+.navigation-link:hover {
+    color: var(--link-color);
+}
+
+.navigation-link::after {
+    background-color: transparent;
+    bottom: -4px;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    -webkit-transition: background-color 0.3s ease-in;
+    transition: background-color 0.3s ease-in;
+    width: 100%;
+}
+
+.navigation-link:hover::after {
+    background-color: var(--link-color);
+}

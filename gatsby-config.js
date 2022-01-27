@@ -9,7 +9,7 @@ module.exports = {
       "accessToken": "9Lx1SYgrfV5Lx8TwsOZW9yR2W6c_lerK0_iJg6OXRro",
       "spaceId": "f86i3o7ef56u"
     }
-  }, "gatsby-plugin-image", "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  }, "gatsby-plugin-image", "gatsby-transformer-remark", "gatsby-plugin-fontawesome-css" , "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
